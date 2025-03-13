@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <style>
+        .divContainer
+        {
+         width: 110px;
+         border: 2px solid black;
+         margin: 0;
+         padding: 0;
+         height: 110px;
+         left: 200px;
+        }
+ 
+        .allDiv{
+         margin: 0;
+         padding: 0;
+         background-color: rgb(159, 243, 236);
+         width: 50px;
+         height: 50px;
+         text-align: center;
+         vertical-align: middle;
+         font-weight: bold;
+         border: 1px solid red;
+        }
+ 
+        .divA
+        {
+         position: relative;
+         top:25px;
+         left: 25px;
+         z-index: 0;
+        }
+ 
+        .divB
+        {
+         position: relative;
+         top:-52px;
+        }
+ 
+        .divC
+        {
+         position: relative;
+         top:-104px;
+         left: 58px;
+        }
+ 
+        .divD
+        {
+         position: relative;
+         top:-98px;
+ 
+        }
+ 
+        .divE
+        {
+         position: relative;
+         top:-150px;
+         left: 58px;
+        }
+     </style>
+</head>
+<body>
+    <div class="divContainer">
+        <div class="allDiv divA">A</div>
+        <div class="allDiv divB">B</div>
+        <div class="allDiv divC">C</div>
+        <div class="allDiv divD">D</div>
+        <div class="allDiv divE">E</div>
+    </div>
+</body>
+</html>
